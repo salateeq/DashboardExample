@@ -1,0 +1,33 @@
+<script>
+    function update_internet_access_in_schools_data(countryname,date2){
+      url = "page_name/countryname/date2"
+      url = url.replace("page_name",'internet_access_in_schools')
+      url = url.replace("countryname",countryname)
+      url = url.replace("date2",date2)
+      $.ajax({
+        type: 'GET',
+        url: url,
+        data: {
+        },
+        success: function (json) {
+          document.getElementById("internet_access_in_schools").innerHTML = json['internet_access_in_schools']
+        }
+      });
+    }
+  </script>
+  <div class="col-md-3">
+      <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+              <h6 class="lh-1">Internet access in schools</h6>
+          </div>
+          <div class="layer w-100">
+              <div class="peers ai-sb fxw-nw">
+                  <div class="peer peer-greed"><span id="internet_access_in_schools">{{internet_access_in_schools}}</span></div>
+                  <div class="peer"><span
+                          class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">+10%</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  

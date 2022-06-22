@@ -1,0 +1,33 @@
+<script>
+    function update_individuals_using_the_internet_data(countryname,date2){
+      url = "page_name/countryname/date2"
+      url = url.replace("page_name",'individuals_using_the_internet')
+      url = url.replace("countryname",countryname)
+      url = url.replace("date2",date2)
+      $.ajax({
+        type: 'GET',
+        url: url,
+        data: {
+        },
+        success: function (json) {
+          document.getElementById("individuals_using_the_internet").innerHTML = json['individuals_using_the_internet']
+        }
+      });
+    }
+  </script>
+  <div class="col-md-3">
+      <div class="layers bd bgc-white p-20">
+          <div class="layer w-100 mB-10">
+              <h6 class="lh-1">Individuals using the internet</h6>
+          </div>
+          <div class="layer w-100">
+              <div class="peers ai-sb fxw-nw">
+                  <div class="peer peer-greed"><span id="individuals_using_the_internet">{{individuals_using_the_internet}}</span></div>
+                  <div class="peer"><span
+                          class="d-ib lh-0 va-m fw-600 bdrs-10em pX-15 pY-15 bgc-green-50 c-green-500">+10%</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
