@@ -131,6 +131,13 @@ am5.ready(function() {
     heatLegend.set("startValue", polygonSeries.getPrivate("valueLow"));
     heatLegend.set("endValue", polygonSeries.getPrivate("valueHigh"));
   });
+
+
+
+
+
+
+
   $("#searchButton").click ( async function(){
   var countrynameTextBox = document.getElementById("countryname").value
   var dateTextBox = document.getElementById("datebox").value
@@ -179,6 +186,20 @@ am5.ready(function() {
     return obj.name_3_letters === countryname
   })
   pointSeries.data.setAll(result);
+  var legend = polygonSeries.children.push(am5.Legend.new(root, {
+    nameField: "name",
+    fillField: "color",
+    strokeField: "color",
+    centerX: am5.percent(50),
+    x: am5.percent(50)
+  }));
+  
+  legend.data.setAll([{
+    name: "No Data",
+    color: am5.color(6788316)
+    }]);
+  
+  console.log('finish map',polygonSeries.data)
   
   
 });
