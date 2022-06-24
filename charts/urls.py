@@ -9,4 +9,5 @@ urlpatterns = [
     path('internet_access/<str:countryname>/<str:date2>', views.internet_access, name='internet_access'),
     path('internet_access_in_schools/<str:countryname>/<str:date2>', views.internet_access_in_schools, name='internet_access_in_schools'),
     path('individuals_using_the_internet/<str:countryname>/<str:date2>', views.individuals_using_the_internet, name='individuals_using_the_internet'),
+    path('internet_access_map/<str:date2>', views.internet_access_map, name='internet_access_map'),
 ]

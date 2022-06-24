@@ -9,6 +9,8 @@ def index(request,ctx={},template_file="dashboard/demo.html"):
     ctx["internet_access"] = 0
     ctx["internet_access_in_schools"] = 0
     ctx["individuals_using_the_internet"] = 0
+    ctx["internet_access_map"] = []
+    
     return render(request,template_file,ctx)
 
 
@@ -82,3 +84,57 @@ def individuals_using_the_internet(request,countryname,date2):
     returnjson = {"individuals_using_the_internet":users_count}
     print(returnjson)
     return JsonResponse(returnjson)
+
+def internet_access_map(request,date2):
+    
+    Api_url = "https://tcdata360-backend.worldbank.org/api/v1/data?indicators=41384&timeframes={0}".format(date2)
+    result = json.load(urllib.request.urlopen(Api_url))
+    resultedData = result['data']
+    returnedData = []
+    for countrydata in resultedData:
+        id = convert_country_3letters_to_2letters(countrydata["id"])
+        name = convert_country_3letters_to_countryName(countrydata["id"])
+        value = countrydata["indicators"][0]["values"][date2]
+        print(countrydata["id"])
+        lat , long= convert_country_3letters_to_geolLocation(countrydata["id"])
+        singeCountrydata = {"id":id,"name":name,"value":value,  "lat":lat,
+  "long": long,
+  "width": 1,
+  "height": 1,
+  "name_3_letters":countrydata["id"]}
+        returnedData.append(singeCountrydata)
+    return JsonResponse(returnedData,safe=False)
+
+
+
+def convert_country_3letters_to_2letters(country3letters):
+
+    data = json.load(open('charts/lookup/country_mapping.json', 'r'))
+    countryName2letters = ''
+    for i in data:
+        if i['country3letters'] == country3letters:
+            countryName2letters = i['country2letters']
+            break
+    return countryName2letters
+
+def convert_country_3letters_to_countryName(country3letters):
+
+    data = json.load(open('charts/lookup/country_mapping.json', 'r'))
+    countryname = ''
+    for i in data:
+        if i['country3letters'] == country3letters:
+            countryname = i['countryname']
+            break
+    return countryname
+
+
+def convert_country_3letters_to_geolLocation(country3letters):
+    data = json.load(open('charts/lookup/country_to_geolocation.json', 'r'))
+    lat = ''
+    long = ''
+    for i in data:
+        if i['alpha3'] == country3letters:
+            lat = i['latitude']
+            long = i['longitude']
+            break
+    return lat,long

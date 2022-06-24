@@ -1,0 +1,1236 @@
+[{
+  "countryname": "Afghanistan",
+  "country2letters": "AF",
+  "country3letters": "AFG"
+},
+{
+  "countryname": "Aland Islands",
+  "country2letters": "AX",
+  "country3letters": "ALA"
+},
+{
+  "countryname": "Albania",
+  "country2letters": "AL",
+  "country3letters": "ALB"
+},
+{
+  "countryname": "Algeria",
+  "country2letters": "DZ",
+  "country3letters": "DZA"
+},
+{
+  "countryname": "American Samoa",
+  "country2letters": "AS",
+  "country3letters": "ASM"
+},
+{
+  "countryname": "Andorra",
+  "country2letters": "AD",
+  "country3letters": "AND"
+},
+{
+  "countryname": "Angola",
+  "country2letters": "AO",
+  "country3letters": "AGO"
+},
+{
+  "countryname": "Anguilla",
+  "country2letters": "AI",
+  "country3letters": "AIA"
+},
+{
+  "countryname": "Antarctica",
+  "country2letters": "AQ",
+  "country3letters": "ATA"
+},
+{
+  "countryname": "Antigua and Barbuda",
+  "country2letters": "AG",
+  "country3letters": "ATG"
+},
+{
+  "countryname": "Argentina",
+  "country2letters": "AR",
+  "country3letters": "ARG"
+},
+{
+  "countryname": "Armenia",
+  "country2letters": "AM",
+  "country3letters": "ARM"
+},
+{
+  "countryname": "Aruba",
+  "country2letters": "AW",
+  "country3letters": "ABW"
+},
+{
+  "countryname": "Australia",
+  "country2letters": "AU",
+  "country3letters": "AUS"
+},
+{
+  "countryname": "Austria",
+  "country2letters": "AT",
+  "country3letters": "AUT"
+},
+{
+  "countryname": "Azerbaijan",
+  "country2letters": "AZ",
+  "country3letters": "AZE"
+},
+{
+  "countryname": "Bahamas",
+  "country2letters": "BS",
+  "country3letters": "BHS"
+},
+{
+  "countryname": "Bahrain",
+  "country2letters": "BH",
+  "country3letters": "BHR"
+},
+{
+  "countryname": "Bangladesh",
+  "country2letters": "BD",
+  "country3letters": "BGD"
+},
+{
+  "countryname": "Barbados",
+  "country2letters": "BB",
+  "country3letters": "BRB"
+},
+{
+  "countryname": "Belarus",
+  "country2letters": "BY",
+  "country3letters": "BLR"
+},
+{
+  "countryname": "Belgium",
+  "country2letters": "BE",
+  "country3letters": "BEL"
+},
+{
+  "countryname": "Belize",
+  "country2letters": "BZ",
+  "country3letters": "BLZ"
+},
+{
+  "countryname": "Benin",
+  "country2letters": "BJ",
+  "country3letters": "BEN"
+},
+{
+  "countryname": "Bermuda",
+  "country2letters": "BM",
+  "country3letters": "BMU"
+},
+{
+  "countryname": "Bhutan",
+  "country2letters": "BT",
+  "country3letters": "BTN"
+},
+{
+  "countryname": "Bolivia",
+  "country2letters": "BO",
+  "country3letters": "BOL"
+},
+{
+  "countryname": "Bosnia and Herzegovina",
+  "country2letters": "BA",
+  "country3letters": "BIH"
+},
+{
+  "countryname": "Botswana",
+  "country2letters": "BW",
+  "country3letters": "BWA"
+},
+{
+  "countryname": "Bouvet Island",
+  "country2letters": "BV",
+  "country3letters": "BVT"
+},
+{
+  "countryname": "Brazil",
+  "country2letters": "BR",
+  "country3letters": "BRA"
+},
+{
+  "countryname": "British Virgin Islands",
+  "country2letters": "VG",
+  "country3letters": "VGB"
+},
+{
+  "countryname": "British Indian Ocean Territory",
+  "country2letters": "IO",
+  "country3letters": "IOT"
+},
+{
+  "countryname": "Brunei Darussalam",
+  "country2letters": "BN",
+  "country3letters": "BRN"
+},
+{
+  "countryname": "Bulgaria",
+  "country2letters": "BG",
+  "country3letters": "BGR"
+},
+{
+  "countryname": "Burkina Faso",
+  "country2letters": "BF",
+  "country3letters": "BFA"
+},
+{
+  "countryname": "Burundi",
+  "country2letters": "BI",
+  "country3letters": "BDI"
+},
+{
+  "countryname": "Cambodia",
+  "country2letters": "KH",
+  "country3letters": "KHM"
+},
+{
+  "countryname": "Cameroon",
+  "country2letters": "CM",
+  "country3letters": "CMR"
+},
+{
+  "countryname": "Canada",
+  "country2letters": "CA",
+  "country3letters": "CAN"
+},
+{
+  "countryname": "Cape Verde",
+  "country2letters": "CV",
+  "country3letters": "CPV"
+},
+{
+  "countryname": "Cayman Islands",
+  "country2letters": "KY",
+  "country3letters": "CYM"
+},
+{
+  "countryname": "Central African Republic",
+  "country2letters": "CF",
+  "country3letters": "CAF"
+},
+{
+  "countryname": "Chad",
+  "country2letters": "TD",
+  "country3letters": "TCD"
+},
+{
+  "countryname": "Chile",
+  "country2letters": "CL",
+  "country3letters": "CHL"
+},
+{
+  "countryname": "China",
+  "country2letters": "CN",
+  "country3letters": "CHN"
+},
+{
+  "countryname": "Hong Kong, SAR China",
+  "country2letters": "HK",
+  "country3letters": "HKG"
+},
+{
+  "countryname": "Macao, SAR China",
+  "country2letters": "MO",
+  "country3letters": "MAC"
+},
+{
+  "countryname": "Christmas Island",
+  "country2letters": "CX",
+  "country3letters": "CXR"
+},
+{
+  "countryname": "Cocos (Keeling) Islands",
+  "country2letters": "CC",
+  "country3letters": "CCK"
+},
+{
+  "countryname": "Colombia",
+  "country2letters": "CO",
+  "country3letters": "COL"
+},
+{
+  "countryname": "Comoros",
+  "country2letters": "KM",
+  "country3letters": "COM"
+},
+{
+  "countryname": "Congo&nbsp;(Brazzaville)",
+  "country2letters": "CG",
+  "country3letters": "COG"
+},
+{
+  "countryname": "Congo, (Kinshasa)",
+  "country2letters": "CD",
+  "country3letters": "COD"
+},
+{
+  "countryname": "Cook Islands",
+  "country2letters": "CK",
+  "country3letters": "COK"
+},
+{
+  "countryname": "Costa Rica",
+  "country2letters": "CR",
+  "country3letters": "CRI"
+},
+{
+  "countryname": "Côte d'Ivoire",
+  "country2letters": "CI",
+  "country3letters": "CIV"
+},
+{
+  "countryname": "Croatia",
+  "country2letters": "HR",
+  "country3letters": "HRV"
+},
+{
+  "countryname": "Cuba",
+  "country2letters": "CU",
+  "country3letters": "CUB"
+},
+{
+  "countryname": "Cyprus",
+  "country2letters": "CY",
+  "country3letters": "CYP"
+},
+{
+  "countryname": "Czech Republic",
+  "country2letters": "CZ",
+  "country3letters": "CZE"
+},
+{
+  "countryname": "Denmark",
+  "country2letters": "DK",
+  "country3letters": "DNK"
+},
+{
+  "countryname": "Djibouti",
+  "country2letters": "DJ",
+  "country3letters": "DJI"
+},
+{
+  "countryname": "Dominica",
+  "country2letters": "DM",
+  "country3letters": "DMA"
+},
+{
+  "countryname": "Dominican Republic",
+  "country2letters": "DO",
+  "country3letters": "DOM"
+},
+{
+  "countryname": "Ecuador",
+  "country2letters": "EC",
+  "country3letters": "ECU"
+},
+{
+  "countryname": "Egypt",
+  "country2letters": "EG",
+  "country3letters": "EGY"
+},
+{
+  "countryname": "El Salvador",
+  "country2letters": "SV",
+  "country3letters": "SLV"
+},
+{
+  "countryname": "Equatorial Guinea",
+  "country2letters": "GQ",
+  "country3letters": "GNQ"
+},
+{
+  "countryname": "Eritrea",
+  "country2letters": "ER",
+  "country3letters": "ERI"
+},
+{
+  "countryname": "Estonia",
+  "country2letters": "EE",
+  "country3letters": "EST"
+},
+{
+  "countryname": "Ethiopia",
+  "country2letters": "ET",
+  "country3letters": "ETH"
+},
+{
+  "countryname": "Falkland Islands (Malvinas)",
+  "country2letters": "FK",
+  "country3letters": "FLK"
+},
+{
+  "countryname": "Faroe Islands",
+  "country2letters": "FO",
+  "country3letters": "FRO"
+},
+{
+  "countryname": "Fiji",
+  "country2letters": "FJ",
+  "country3letters": "FJI"
+},
+{
+  "countryname": "Finland",
+  "country2letters": "FI",
+  "country3letters": "FIN"
+},
+{
+  "countryname": "France",
+  "country2letters": "FR",
+  "country3letters": "FRA"
+},
+{
+  "countryname": "French Guiana",
+  "country2letters": "GF",
+  "country3letters": "GUF"
+},
+{
+  "countryname": "French Polynesia",
+  "country2letters": "PF",
+  "country3letters": "PYF"
+},
+{
+  "countryname": "French Southern Territories",
+  "country2letters": "TF",
+  "country3letters": "ATF"
+},
+{
+  "countryname": "Gabon",
+  "country2letters": "GA",
+  "country3letters": "GAB"
+},
+{
+  "countryname": "Gambia",
+  "country2letters": "GM",
+  "country3letters": "GMB"
+},
+{
+  "countryname": "Georgia",
+  "country2letters": "GE",
+  "country3letters": "GEO"
+},
+{
+  "countryname": "Germany",
+  "country2letters": "DE",
+  "country3letters": "DEU"
+},
+{
+  "countryname": "Ghana",
+  "country2letters": "GH",
+  "country3letters": "GHA"
+},
+{
+  "countryname": "Gibraltar",
+  "country2letters": "GI",
+  "country3letters": "GIB"
+},
+{
+  "countryname": "Greece",
+  "country2letters": "GR",
+  "country3letters": "GRC"
+},
+{
+  "countryname": "Greenland",
+  "country2letters": "GL",
+  "country3letters": "GRL"
+},
+{
+  "countryname": "Grenada",
+  "country2letters": "GD",
+  "country3letters": "GRD"
+},
+{
+  "countryname": "Guadeloupe",
+  "country2letters": "GP",
+  "country3letters": "GLP"
+},
+{
+  "countryname": "Guam",
+  "country2letters": "GU",
+  "country3letters": "GUM"
+},
+{
+  "countryname": "Guatemala",
+  "country2letters": "GT",
+  "country3letters": "GTM"
+},
+{
+  "countryname": "Guernsey",
+  "country2letters": "GG",
+  "country3letters": "GGY"
+},
+{
+  "countryname": "Guinea",
+  "country2letters": "GN",
+  "country3letters": "GIN"
+},
+{
+  "countryname": "Guinea-Bissau",
+  "country2letters": "GW",
+  "country3letters": "GNB"
+},
+{
+  "countryname": "Guyana",
+  "country2letters": "GY",
+  "country3letters": "GUY"
+},
+{
+  "countryname": "Haiti",
+  "country2letters": "HT",
+  "country3letters": "HTI"
+},
+{
+  "countryname": "Heard and Mcdonald Islands",
+  "country2letters": "HM",
+  "country3letters": "HMD"
+},
+{
+  "countryname": "Holy See&nbsp;(Vatican City State)",
+  "country2letters": "VA",
+  "country3letters": "VAT"
+},
+{
+  "countryname": "Honduras",
+  "country2letters": "HN",
+  "country3letters": "HND"
+},
+{
+  "countryname": "Hungary",
+  "country2letters": "HU",
+  "country3letters": "HUN"
+},
+{
+  "countryname": "Iceland",
+  "country2letters": "IS",
+  "country3letters": "ISL"
+},
+{
+  "countryname": "India",
+  "country2letters": "IN",
+  "country3letters": "IND"
+},
+{
+  "countryname": "Indonesia",
+  "country2letters": "ID",
+  "country3letters": "IDN"
+},
+{
+  "countryname": "Iran, Islamic Republic of",
+  "country2letters": "IR",
+  "country3letters": "IRN"
+},
+{
+  "countryname": "Iraq",
+  "country2letters": "IQ",
+  "country3letters": "IRQ"
+},
+{
+  "countryname": "Ireland",
+  "country2letters": "IE",
+  "country3letters": "IRL"
+},
+{
+  "countryname": "Isle of Man",
+  "country2letters": "IM",
+  "country3letters": "IMN"
+},
+{
+  "countryname": "Israel",
+  "country2letters": "IL",
+  "country3letters": "ISR"
+},
+{
+  "countryname": "Italy",
+  "country2letters": "IT",
+  "country3letters": "ITA"
+},
+{
+  "countryname": "Jamaica",
+  "country2letters": "JM",
+  "country3letters": "JAM"
+},
+{
+  "countryname": "Japan",
+  "country2letters": "JP",
+  "country3letters": "JPN"
+},
+{
+  "countryname": "Jersey",
+  "country2letters": "JE",
+  "country3letters": "JEY"
+},
+{
+  "countryname": "Jordan",
+  "country2letters": "JO",
+  "country3letters": "JOR"
+},
+{
+  "countryname": "Kazakhstan",
+  "country2letters": "KZ",
+  "country3letters": "KAZ"
+},
+{
+  "countryname": "Kenya",
+  "country2letters": "KE",
+  "country3letters": "KEN"
+},
+{
+  "countryname": "Kiribati",
+  "country2letters": "KI",
+  "country3letters": "KIR"
+},
+{
+  "countryname": "Korea&nbsp;(North)",
+  "country2letters": "KP",
+  "country3letters": "PRK"
+},
+{
+  "countryname": "Korea&nbsp;(South)",
+  "country2letters": "KR",
+  "country3letters": "KOR"
+},
+{
+  "countryname": "Kuwait",
+  "country2letters": "KW",
+  "country3letters": "KWT"
+},
+{
+  "countryname": "Kyrgyzstan",
+  "country2letters": "KG",
+  "country3letters": "KGZ"
+},
+{
+  "countryname": "Lao PDR",
+  "country2letters": "LA",
+  "country3letters": "LAO"
+},
+{
+  "countryname": "Latvia",
+  "country2letters": "LV",
+  "country3letters": "LVA"
+},
+{
+  "countryname": "Lebanon",
+  "country2letters": "LB",
+  "country3letters": "LBN"
+},
+{
+  "countryname": "Lesotho",
+  "country2letters": "LS",
+  "country3letters": "LSO"
+},
+{
+  "countryname": "Liberia",
+  "country2letters": "LR",
+  "country3letters": "LBR"
+},
+{
+  "countryname": "Libya",
+  "country2letters": "LY",
+  "country3letters": "LBY"
+},
+{
+  "countryname": "Liechtenstein",
+  "country2letters": "LI",
+  "country3letters": "LIE"
+},
+{
+  "countryname": "Lithuania",
+  "country2letters": "LT",
+  "country3letters": "LTU"
+},
+{
+  "countryname": "Luxembourg",
+  "country2letters": "LU",
+  "country3letters": "LUX"
+},
+{
+  "countryname": "Macedonia, Republic of",
+  "country2letters": "MK",
+  "country3letters": "MKD"
+},
+{
+  "countryname": "Madagascar",
+  "country2letters": "MG",
+  "country3letters": "MDG"
+},
+{
+  "countryname": "Malawi",
+  "country2letters": "MW",
+  "country3letters": "MWI"
+},
+{
+  "countryname": "Malaysia",
+  "country2letters": "MY",
+  "country3letters": "MYS"
+},
+{
+  "countryname": "Maldives",
+  "country2letters": "MV",
+  "country3letters": "MDV"
+},
+{
+  "countryname": "Mali",
+  "country2letters": "ML",
+  "country3letters": "MLI"
+},
+{
+  "countryname": "Malta",
+  "country2letters": "MT",
+  "country3letters": "MLT"
+},
+{
+  "countryname": "Marshall Islands",
+  "country2letters": "MH",
+  "country3letters": "MHL"
+},
+{
+  "countryname": "Martinique",
+  "country2letters": "MQ",
+  "country3letters": "MTQ"
+},
+{
+  "countryname": "Mauritania",
+  "country2letters": "MR",
+  "country3letters": "MRT"
+},
+{
+  "countryname": "Mauritius",
+  "country2letters": "MU",
+  "country3letters": "MUS"
+},
+{
+  "countryname": "Mayotte",
+  "country2letters": "YT",
+  "country3letters": "MYT"
+},
+{
+  "countryname": "Mexico",
+  "country2letters": "MX",
+  "country3letters": "MEX"
+},
+{
+  "countryname": "Micronesia, Federated States of",
+  "country2letters": "FM",
+  "country3letters": "FSM"
+},
+{
+  "countryname": "Moldova",
+  "country2letters": "MD",
+  "country3letters": "MDA"
+},
+{
+  "countryname": "Monaco",
+  "country2letters": "MC",
+  "country3letters": "MCO"
+},
+{
+  "countryname": "Mongolia",
+  "country2letters": "MN",
+  "country3letters": "MNG"
+},
+{
+  "countryname": "Montenegro",
+  "country2letters": "ME",
+  "country3letters": "MNE"
+},
+{
+  "countryname": "Montserrat",
+  "country2letters": "MS",
+  "country3letters": "MSR"
+},
+{
+  "countryname": "Morocco",
+  "country2letters": "MA",
+  "country3letters": "MAR"
+},
+{
+  "countryname": "Mozambique",
+  "country2letters": "MZ",
+  "country3letters": "MOZ"
+},
+{
+  "countryname": "Myanmar",
+  "country2letters": "MM",
+  "country3letters": "MMR"
+},
+{
+  "countryname": "Namibia",
+  "country2letters": "NA",
+  "country3letters": "NAM"
+},
+{
+  "countryname": "Nauru",
+  "country2letters": "NR",
+  "country3letters": "NRU"
+},
+{
+  "countryname": "Nepal",
+  "country2letters": "NP",
+  "country3letters": "NPL"
+},
+{
+  "countryname": "Netherlands",
+  "country2letters": "NL",
+  "country3letters": "NLD"
+},
+{
+  "countryname": "Netherlands Antilles",
+  "country2letters": "AN",
+  "country3letters": "ANT"
+},
+{
+  "countryname": "New Caledonia",
+  "country2letters": "NC",
+  "country3letters": "NCL"
+},
+{
+  "countryname": "New Zealand",
+  "country2letters": "NZ",
+  "country3letters": "NZL"
+},
+{
+  "countryname": "Nicaragua",
+  "country2letters": "NI",
+  "country3letters": "NIC"
+},
+{
+  "countryname": "Niger",
+  "country2letters": "NE",
+  "country3letters": "NER"
+},
+{
+  "countryname": "Nigeria",
+  "country2letters": "NG",
+  "country3letters": "NGA"
+},
+{
+  "countryname": "Niue",
+  "country2letters": "NU",
+  "country3letters": "NIU"
+},
+{
+  "countryname": "Norfolk Island",
+  "country2letters": "NF",
+  "country3letters": "NFK"
+},
+{
+  "countryname": "Northern Mariana Islands",
+  "country2letters": "MP",
+  "country3letters": "MNP"
+},
+{
+  "countryname": "Norway",
+  "country2letters": "NO",
+  "country3letters": "NOR"
+},
+{
+  "countryname": "Oman",
+  "country2letters": "OM",
+  "country3letters": "OMN"
+},
+{
+  "countryname": "Pakistan",
+  "country2letters": "PK",
+  "country3letters": "PAK"
+},
+{
+  "countryname": "Palau",
+  "country2letters": "PW",
+  "country3letters": "PLW"
+},
+{
+  "countryname": "Palestinian Territory",
+  "country2letters": "PS",
+  "country3letters": "PSE"
+},
+{
+  "countryname": "Panama",
+  "country2letters": "PA",
+  "country3letters": "PAN"
+},
+{
+  "countryname": "Papua New Guinea",
+  "country2letters": "PG",
+  "country3letters": "PNG"
+},
+{
+  "countryname": "Paraguay",
+  "country2letters": "PY",
+  "country3letters": "PRY"
+},
+{
+  "countryname": "Peru",
+  "country2letters": "PE",
+  "country3letters": "PER"
+},
+{
+  "countryname": "Philippines",
+  "country2letters": "PH",
+  "country3letters": "PHL"
+},
+{
+  "countryname": "Pitcairn",
+  "country2letters": "PN",
+  "country3letters": "PCN"
+},
+{
+  "countryname": "Poland",
+  "country2letters": "PL",
+  "country3letters": "POL"
+},
+{
+  "countryname": "Portugal",
+  "country2letters": "PT",
+  "country3letters": "PRT"
+},
+{
+  "countryname": "Puerto Rico",
+  "country2letters": "PR",
+  "country3letters": "PRI"
+},
+{
+  "countryname": "Qatar",
+  "country2letters": "QA",
+  "country3letters": "QAT"
+},
+{
+  "countryname": "Réunion",
+  "country2letters": "RE",
+  "country3letters": "REU"
+},
+{
+  "countryname": "Romania",
+  "country2letters": "RO",
+  "country3letters": "ROU"
+},
+{
+  "countryname": "Russian Federation",
+  "country2letters": "RU",
+  "country3letters": "RUS"
+},
+{
+  "countryname": "Rwanda",
+  "country2letters": "RW",
+  "country3letters": "RWA"
+},
+{
+  "countryname": "Saint-Barthélemy",
+  "country2letters": "BL",
+  "country3letters": "BLM"
+},
+{
+  "countryname": "Saint Helena",
+  "country2letters": "SH",
+  "country3letters": "SHN"
+},
+{
+  "countryname": "Saint Kitts and Nevis",
+  "country2letters": "KN",
+  "country3letters": "KNA"
+},
+{
+  "countryname": "Saint Lucia",
+  "country2letters": "LC",
+  "country3letters": "LCA"
+},
+{
+  "countryname": "Saint-Martin (French part)",
+  "country2letters": "MF",
+  "country3letters": "MAF"
+},
+{
+  "countryname": "Saint Pierre and Miquelon",
+  "country2letters": "PM",
+  "country3letters": "SPM"
+},
+{
+  "countryname": "Saint Vincent and Grenadines",
+  "country2letters": "VC",
+  "country3letters": "VCT"
+},
+{
+  "countryname": "Samoa",
+  "country2letters": "WS",
+  "country3letters": "WSM"
+},
+{
+  "countryname": "San Marino",
+  "country2letters": "SM",
+  "country3letters": "SMR"
+},
+{
+  "countryname": "Sao Tome and Principe",
+  "country2letters": "ST",
+  "country3letters": "STP"
+},
+{
+  "countryname": "Saudi Arabia",
+  "country2letters": "SA",
+  "country3letters": "SAU"
+},
+{
+  "countryname": "Senegal",
+  "country2letters": "SN",
+  "country3letters": "SEN"
+},
+{
+  "countryname": "Serbia",
+  "country2letters": "RS",
+  "country3letters": "SRB"
+},
+{
+  "countryname": "Seychelles",
+  "country2letters": "SC",
+  "country3letters": "SYC"
+},
+{
+  "countryname": "Sierra Leone",
+  "country2letters": "SL",
+  "country3letters": "SLE"
+},
+{
+  "countryname": "Singapore",
+  "country2letters": "SG",
+  "country3letters": "SGP"
+},
+{
+  "countryname": "Slovakia",
+  "country2letters": "SK",
+  "country3letters": "SVK"
+},
+{
+  "countryname": "Slovenia",
+  "country2letters": "SI",
+  "country3letters": "SVN"
+},
+{
+  "countryname": "Solomon Islands",
+  "country2letters": "SB",
+  "country3letters": "SLB"
+},
+{
+  "countryname": "Somalia",
+  "country2letters": "SO",
+  "country3letters": "SOM"
+},
+{
+  "countryname": "South Africa",
+  "country2letters": "ZA",
+  "country3letters": "ZAF"
+},
+{
+  "countryname": "South Georgia and the South Sandwich Islands",
+  "country2letters": "GS",
+  "country3letters": "SGS"
+},
+{
+  "countryname": "South Sudan",
+  "country2letters": "SS",
+  "country3letters": "SSD"
+},
+{
+  "countryname": "Spain",
+  "country2letters": "ES",
+  "country3letters": "ESP"
+},
+{
+  "countryname": "Sri Lanka",
+  "country2letters": "LK",
+  "country3letters": "LKA"
+},
+{
+  "countryname": "Sudan",
+  "country2letters": "SD",
+  "country3letters": "SDN"
+},
+{
+  "countryname": "Suriname",
+  "country2letters": "SR",
+  "country3letters": "SUR"
+},
+{
+  "countryname": "Svalbard and Jan Mayen Islands",
+  "country2letters": "SJ",
+  "country3letters": "SJM"
+},
+{
+  "countryname": "Swaziland",
+  "country2letters": "SZ",
+  "country3letters": "SWZ"
+},
+{
+  "countryname": "Sweden",
+  "country2letters": "SE",
+  "country3letters": "SWE"
+},
+{
+  "countryname": "Switzerland",
+  "country2letters": "CH",
+  "country3letters": "CHE"
+},
+{
+  "countryname": "Syrian Arab Republic&nbsp;(Syria)",
+  "country2letters": "SY",
+  "country3letters": "SYR"
+},
+{
+  "countryname": "Taiwan, Republic of China",
+  "country2letters": "TW",
+  "country3letters": "TWN"
+},
+{
+  "countryname": "Tajikistan",
+  "country2letters": "TJ",
+  "country3letters": "TJK"
+},
+{
+  "countryname": "Tanzania, United Republic of",
+  "country2letters": "TZ",
+  "country3letters": "TZA"
+},
+{
+  "countryname": "Thailand",
+  "country2letters": "TH",
+  "country3letters": "THA"
+},
+{
+  "countryname": "Timor-Leste",
+  "country2letters": "TL",
+  "country3letters": "TLS"
+},
+{
+  "countryname": "Togo",
+  "country2letters": "TG",
+  "country3letters": "TGO"
+},
+{
+  "countryname": "Tokelau",
+  "country2letters": "TK",
+  "country3letters": "TKL"
+},
+{
+  "countryname": "Tonga",
+  "country2letters": "TO",
+  "country3letters": "TON"
+},
+{
+  "countryname": "Trinidad and Tobago",
+  "country2letters": "TT",
+  "country3letters": "TTO"
+},
+{
+  "countryname": "Tunisia",
+  "country2letters": "TN",
+  "country3letters": "TUN"
+},
+{
+  "countryname": "Turkey",
+  "country2letters": "TR",
+  "country3letters": "TUR"
+},
+{
+  "countryname": "Turkmenistan",
+  "country2letters": "TM",
+  "country3letters": "TKM"
+},
+{
+  "countryname": "Turks and Caicos Islands",
+  "country2letters": "TC",
+  "country3letters": "TCA"
+},
+{
+  "countryname": "Tuvalu",
+  "country2letters": "TV",
+  "country3letters": "TUV"
+},
+{
+  "countryname": "Uganda",
+  "country2letters": "UG",
+  "country3letters": "UGA"
+},
+{
+  "countryname": "Ukraine",
+  "country2letters": "UA",
+  "country3letters": "UKR"
+},
+{
+  "countryname": "United Arab Emirates",
+  "country2letters": "AE",
+  "country3letters": "ARE"
+},
+{
+  "countryname": "United Kingdom",
+  "country2letters": "GB",
+  "country3letters": "GBR"
+},
+{
+  "countryname": "United States of America",
+  "country2letters": "US",
+  "country3letters": "USA"
+},
+{
+  "countryname": "US Minor Outlying Islands",
+  "country2letters": "UM",
+  "country3letters": "UMI"
+},
+{
+  "countryname": "Uruguay",
+  "country2letters": "UY",
+  "country3letters": "URY"
+},
+{
+  "countryname": "Uzbekistan",
+  "country2letters": "UZ",
+  "country3letters": "UZB"
+},
+{
+  "countryname": "Vanuatu",
+  "country2letters": "VU",
+  "country3letters": "VUT"
+},
+{
+  "countryname": "Venezuela&nbsp;(Bolivarian Republic)",
+  "country2letters": "VE",
+  "country3letters": "VEN"
+},
+{
+  "countryname": "Viet Nam",
+  "country2letters": "VN",
+  "country3letters": "VNM"
+},
+{
+  "countryname": "Virgin Islands, US",
+  "country2letters": "VI",
+  "country3letters": "VIR"
+},
+{
+  "countryname": "Wallis and Futuna Islands",
+  "country2letters": "WF",
+  "country3letters": "WLF"
+},
+{
+  "countryname": "Western Sahara",
+  "country2letters": "EH",
+  "country3letters": "ESH"
+},
+{
+  "countryname": "Yemen",
+  "country2letters": "YE",
+  "country3letters": "YEM"
+},
+{
+  "countryname": "Zambia",
+  "country2letters": "ZM",
+  "country3letters": "ZMB"
+},
+{
+  "countryname": "Zimbabwe",
+  "country2letters": "ZW",
+  "country3letters": "ZWE"
+}
+]
