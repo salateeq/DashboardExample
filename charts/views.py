@@ -32,7 +32,7 @@ def internet_users(request,countryname,date2):
     if(len(value)>0):
         users_count = value[0]['indicators'][0]['values'][str(date2)]
     else:
-        users_count = 0
+        users_count = 'NA'
     returnjson = {"users_count":users_count}
     print(returnjson)
     return JsonResponse(returnjson)
@@ -47,7 +47,7 @@ def internet_access(request,countryname,date2):
     if(len(value)>0):
         users_count = value[0]['indicators'][0]['values'][str(date2)]
     else:
-        users_count = 0
+        users_count = 'NA'
     returnjson = {"access_count":users_count}
     print(returnjson)
     return JsonResponse(returnjson)
@@ -65,7 +65,7 @@ def internet_access_in_schools(request,countryname,date2):
     if(len(value)>0):
         users_count = value[0]['indicators'][0]['values'][str(date2)]
     else:
-        users_count = 0
+        users_count = "NA"
     returnjson = {"internet_access_in_schools":users_count}
     print(returnjson)
     return JsonResponse(returnjson)
@@ -80,7 +80,7 @@ def individuals_using_the_internet(request,countryname,date2):
     if(len(value)>0):
         users_count = value[0]['indicators'][0]['values'][str(date2)]
     else:
-        users_count = 0
+        users_count = "NA"
     returnjson = {"individuals_using_the_internet":users_count}
     print(returnjson)
     return JsonResponse(returnjson)
