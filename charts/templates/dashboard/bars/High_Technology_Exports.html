@@ -1,0 +1,77 @@
+
+
+
+<script>
+    $("#searchButton").click ( async function(){
+        var countrynameTextBox = document.getElementById("countryname").value
+        var dateTextBox = document.getElementById("datebox").value
+        var returnedData = await getChartData_High_Technology_Exports(countrynameTextBox,dateTextBox)
+        High_Technology_Exports = returnedData[0]["High_Technology_Exports"]
+        High_Technology_Exports_in_dollar = returnedData[1]["High_Technology_Exports_in_dollar"]
+        var High_Technology_Exports_bar = document.getElementById("High_Technology_Exports_bar")
+        var High_Technology_Exports_bar_number = document.getElementById("High_Technology_Exports_bar_number")
+        
+        var High_Technology_Exports_number = document.getElementById("High_Technology_Exports_number")
+        High_Technology_Exports_bar.style.width = High_Technology_Exports+"%"
+        High_Technology_Exports_number.innerHTML = "$"+High_Technology_Exports_in_dollar 
+        High_Technology_Exports_bar_number.innerHTML = Math.round(High_Technology_Exports)+"%"
+        console.log('rr',High_Technology_Exports+"%")
+        console.log('rr',High_Technology_Exports_in_dollar)
+    })
+    async function getChartData_High_Technology_Exports(countrynameTextBox,date) {
+        High_Technology_Exports = await High_Technology_Exports_botResponseChartData(this, countrynameTextBox,date)
+        High_Technology_Exports_in_dollar = await High_Technology_Exports_in_dollar_botResponseChartData(this, countrynameTextBox,date)
+        return [High_Technology_Exports,High_Technology_Exports_in_dollar]
+    }
+    function High_Technology_Exports_botResponseChartData(data,countrynameTextBox,date) {
+        url = 'view_page_name/countrynameTextBox/start_date'
+        url = url.replace('countrynameTextBox',countrynameTextBox)
+        url = url.replace('start_date',date)
+        url = url.replace('view_page_name',"High_Technology_Exports")
+        let csrftoken = '{{ csrf_token }}'
+        return $.ajax({
+            url: url,
+            headers: {
+              'X-CSRFToken': csrftoken
+          },
+            method: 'POST',
+            success: function(response) {
+                chartdata = response
+            },
+        }).then(response => response);
+        return chartdata
+    }
+
+    function High_Technology_Exports_in_dollar_botResponseChartData(data,countrynameTextBox,date) {
+        url = 'view_page_name/countrynameTextBox/start_date'
+        url = url.replace('countrynameTextBox',countrynameTextBox)
+        url = url.replace('start_date',date)
+        url = url.replace('view_page_name',"High_Technology_Exports_in_dollar")
+        let csrftoken = '{{ csrf_token }}'
+        return $.ajax({
+            url: url,
+            headers: {
+              'X-CSRFToken': csrftoken
+          },
+            method: 'POST',
+            success: function(response) {
+                chartdata = response
+            },
+        }).then(response => response);
+        return chartdata
+    }
+
+    
+</script>
+
+<div class="layer w-100">
+  <h5 class="mB-5" id="High_Technology_Exports_number">0 $</h5><small
+      class="fw-600 c-grey-700">High-technology exports (% of manufactured exports)</small> <span
+      class="pull-right c-grey-600 fsz-sm" id="High_Technology_Exports_bar_number">0%</span>
+  <div class="progress mT-10">
+      <div class="progress-bar bgc-deep-purple-500"
+          role="progressbar" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100" style="width:0%" id="High_Technology_Exports_bar"><span
+              class="sr-only">Complete</span></div>
+  </div>
+</div>

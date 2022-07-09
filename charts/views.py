@@ -87,7 +87,7 @@ def individuals_using_the_internet(request,countryname,date2):
 
 def internet_access_map(request,date2):
     
-    Api_url = "https://tcdata360-backend.worldbank.org/api/v1/data?indicators=41384&timeframes={0}".format(date2)
+    Api_url = "https://tcdata360-backend.worldbank.org/api/v1/data?indicators=1742&timeframes={0}".format(date2)
     result = json.load(urllib.request.urlopen(Api_url))
     resultedData = result['data']
     returnedData = []
@@ -138,3 +138,90 @@ def convert_country_3letters_to_geolLocation(country3letters):
             long = i['longitude']
             break
     return lat,long
+
+def convert_countryname_to_3letters(countryname):
+
+    data = json.load(open('charts/lookup/country_mapping.json', 'r'))
+    country3letters = ''
+    for i in data:
+        if i['countryname'] == countryname:
+            country3letters = i['country3letters']
+            break
+    return country3letters
+
+
+
+
+def High_Technology_Exports(request,countryname,date2):
+    Api_url = "https://api.worldbank.org/v2/country/{0}/indicator/TX.VAL.TECH.MF.ZS?format=json&date={1}".format(countryname,date2)
+    
+    result = json.load(urllib.request.urlopen(Api_url))
+    print(result,'result')
+    # value = result[1][0]['value']
+    users_count = 0
+    if(len(result) >1):
+        users_count = result[1][0]['value']
+    else:
+        users_count = 0
+    returnjson = {"High_Technology_Exports":users_count}
+    print(returnjson)
+    return JsonResponse(returnjson)
+
+def High_Technology_Exports_in_dollar(request,countryname,date2):
+    Api_url = "https://api.worldbank.org/v2/country/{0}/indicator/TX.VAL.TECH.CD?format=json&date={1}".format(countryname,date2)
+    
+    result = json.load(urllib.request.urlopen(Api_url))
+    print(result,'result')
+    # value = result[1][0]['value']
+    users_count = 0
+    if(len(result) >1):
+        users_count = result[1][0]['value']
+    else:
+        users_count = 0
+    returnjson = {"High_Technology_Exports_in_dollar":users_count}
+    print(returnjson)
+    return JsonResponse(returnjson)
+
+
+
+def individual_using_internet_vs_neighbouring_countries(request,countryname,date2):
+    data = json.load(open('charts/lookup/Neighbouring_Countries.json', 'r'))
+    NeighbouringCountries = []
+    countryFullName = convert_country_3letters_to_countryName(countryname)
+    NeighbouringCountriesString = countryname
+    for i in data:
+        if i['country1Label'] == countryFullName:
+            NeighbouringCountry3LettersConverted = convert_countryname_to_3letters(i['country2Label'])
+            if(len(NeighbouringCountry3LettersConverted)>0):
+                NeighbouringCountries.append(NeighbouringCountry3LettersConverted)
+                NeighbouringCountriesString = NeighbouringCountriesString+";"+NeighbouringCountry3LettersConverted
+            
+    Api_url = "https://api.worldbank.org/v2/country/{0}/indicator/IT.NET.USER.ZS?format=json&date={1}".format(NeighbouringCountriesString,date2)
+    
+    result = json.load(urllib.request.urlopen(Api_url))
+    # print(result,'result')
+    # value = result[1][0]['value']
+    users_count = 0
+    Data = []
+    if(len(result) >1):
+        users_count = result[1]
+        MaximumCountriesCount = 0
+        for i in users_count:
+            if(i["value"]!=None):
+                # {'indicator': {'id': 'IT.NET.USER.ZS', 'value': 'Individuals using the Internet (% of population)'}, 'country': {'id': 'AE', 'value': 'United Arab Emirates'}, 'countryiso3code': 'ARE', 'date': '2019', 'value': 99.14999998, 'unit': '', 'obs_status': '', 'decimal': 0}
+                name = i["country"]['value']
+                name2letters = i["country"]['id']
+                value = i['value']
+                print(name," ",value)
+                image = "https://www.worldatlas.com/r/w960-q80/img/flag/{0}-flag.jpg".format(name2letters.lower())
+                tempData = {"name":name,"steps":value,"href":image}
+                if(i["countryiso3code"] == countryname):
+                    Data.insert(0,tempData)
+                else:
+                    Data.append(tempData)
+                MaximumCountriesCount = MaximumCountriesCount + 1
+    else:
+        users_count = 0
+
+    returnjson = {"individual_using_internet_vs_neighbouring_countries":Data[0:6]}
+    return JsonResponse(returnjson)
