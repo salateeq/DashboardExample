@@ -2,10 +2,11 @@
 <html>
 
 <head>
-    <link href="https://raw.githubusercontent.com/salateeq/DashboardExample/master/charts/static/dashboard/themify-icons.css" rel="stylesheet">
+    <link href="/static/dashboard/themify-icons.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">  
     <script>
         $( function() {
           $( "#accordion" ).accordion({
@@ -69,7 +70,7 @@
             }
         }
     </style>
-    <link href="https://raw.githubusercontent.com/salateeq/DashboardExample/master/charts/static/dashboard/style.css" rel="stylesheet">
+    <link href="/static/dashboard/style.css" rel="stylesheet">
 </head>
 
 <body class="app">
@@ -199,61 +200,91 @@
             <main class="main-content bgc-grey-100">
                 <div id="mainContent">
                     <div class="container-fluid">
-                        <h4 class="c-grey-900 mT-10 mB-30">Data Tables</h4>
+                        <h4 class="c-grey-900 mT-10 mB-30">Sources</h4>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="bgc-white bd bdrs-3 p-20 mB-20">
-                                    <h4 class="c-grey-900 mB-20">Bootstrap Data Table</h4>
+                                    <h4 class="c-grey-900 mB-20">Sources Data Table</h4>
                                     <table id="dataTable" class="table table-striped table-bordered" cellspacing="0"
-                                        width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th>Indicator Name</th>
-                                                <th>Description</th>
-                                                <th>Data Collection Methodology</th>
-                                                <th>Source</th>
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Indicator Name</th>
-                                                <th>Description</th>
-                                                <th>Data Collection Methodology</th>
-                                                <th>Source</th>
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>Internet users</td>
-                                                <td>Percentage of individuals using the Internet % Pop</td>
-                                                <td>API call</td>
-                                                <td>World Economic Forum Global Competitiveness Index</td>
-                                                <td>Percentage</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Internet access</td>
-                                                <td>Internet access</td>
-                                                <td>API call</td>
-                                                <td>OECD Innovation & Technology</td>
-                                                <td>Percentage</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Internet access in schools                                                </td>
-                                                <td>Internet access in schools</td>
-                                                <td>API call</td>
-                                                <td>World Economic Forum Global Competitiveness Index</td>
-                                                <td>Rank</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Fixed Broadband Subscriptions (Per 100 People), Compared to Other Countries                                                </td>
-                                                <td>Fixed Broadband Subscriptions (Per 100 People), Compared to Other Countries </td>
-                                                <td>API call</td>
-                                                <td>International Telecommunication Union</td>
-                                                <td>Percentage</td>
-                                            </tr>
-                                        </tbody>
-
+                                    width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Indicator Name</th>
+                                            <th>Description</th>
+                                            <th>Data Collection Methodology</th>
+                                            <th>Source</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Indicator Name</th>
+                                            <th>Description</th>
+                                            <th>Data Collection Methodology</th>
+                                            <th>Source</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>Internet users</td>
+                                            <td>Percentage of individuals using the Internet % Pop</td>
+                                            <td>API call</td>
+                                            <td>World Economic Forum Global Competitiveness Index</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Internet access</td>
+                                            <td>Internet access</td>
+                                            <td>API call</td>
+                                            <td>OECD Innovation & Technology</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>Internet access in schools                                                </td>
+                                            <td>Internet access in schools</td>
+                                            <td>API call</td>
+                                            <td>World Economic Forum Global Competitiveness Index</td>
+                                            <td>Rank</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>Individuals using the internet</td>
+                                            <td>Individuals using the Internet, total (%)</td>
+                                            <td>API call</td>
+                                            <td>ITU Database</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                    
+                                    
+                                        <tr>
+                                            <td>Fixed Broadband Subscriptions (Per 100 People), Compared to Other Countries                                                </td>
+                                            <td>Fixed Broadband Subscriptions (Per 100 People), Compared to Other Countries </td>
+                                            <td>API call</td>
+                                            <td>International Telecommunication Union</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                    
+                                        <tr>
+                                            <td>High-technology exports (% of manufactured exports)</td>
+                                            <td>High-technology exports (% of manufactured exports)</td>
+                                            <td>API call</td>
+                                            <td>World Bank</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                    
+                                    
+                                        <tr>
+                                            <td>Individuals using the Internet (% of population) Compared to Neighbouring Countries</td>
+                                            <td>Individuals using the Internet (% of population)</td>
+                                            <td>API call</td>
+                                            <td>International Telecommunication Union ( ITU ) World Telecommunication/ICT Indicators Database</td>
+                                            <td>Percentage</td>
+                                        </tr>
+                                    
+                                    
+                                    
+                                    </tbody>
+                                    
                                     </table>
                                 </div>
                             </div>
